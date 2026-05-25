@@ -1,9 +1,9 @@
 import { Reveal } from "@/components/reveal";
 
 const numbers = [
-  { value: "2012", label: "Founded", caption: "創業年" },
+  { value: "2012", label: "Founded", caption: "創業 — 大阪・本町" },
+  { value: "179", label: "Members", caption: "正社員 43 / スタッフ 136" },
   { value: "06", label: "Service Lines", caption: "事業領域" },
-  { value: "JP", label: "Headquarters", caption: "大阪・本社" },
 ];
 
 export function Numbers() {

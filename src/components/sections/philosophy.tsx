@@ -12,6 +12,10 @@ export function Philosophy() {
         </Reveal>
         <Reveal delay={0.15} className="md:col-span-7 md:col-start-6">
           <div className="space-y-6 text-base md:text-[17px] leading-[2.1] text-foreground/85">
+            <p className="font-serif text-xl md:text-2xl leading-[1.8] text-foreground">
+              BCパートナーズに関わる多くの人たちと誠実に向き合い、
+              すべてのステークホルダーに対し<span className="italic">「普遍的な幸せ」</span>を追求して参ります。
+            </p>
             <p>
               市場の変化はますます速く、お客様の期待は多様になっていく。
               企業はサービスを磨くことに専念したいのに、その間にある「届ける」「つなぐ」「育てる」工程に、いつしか時間を取られてしまう。
