@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond, Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import "./globals.css";
 
 const inter = Inter({
@@ -52,7 +54,11 @@ export default function RootLayout({
       lang="ja"
       className={`${inter.variable} ${cormorant.variable} ${notoSansJP.variable} ${notoSerifJP.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <SiteHeader />
+        <main className="flex-1">{children}</main>
+        <SiteFooter />
+      </body>
     </html>
   );
 }

@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const nav = [
-  { label: "事業", href: "#services" },
-  { label: "会社", href: "#about" },
-  { label: "採用", href: "#recruit" },
-  { label: "お知らせ", href: "#news" },
-  { label: "アクセス", href: "#access" },
+  { label: "事業", href: "/services" },
+  { label: "会社", href: "/company" },
+  { label: "採用", href: "/recruit" },
+  { label: "お知らせ", href: "/news" },
+  { label: "アクセス", href: "/#access" },
 ];
 
 export function SiteHeader() {
@@ -29,7 +29,7 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto max-w-[1320px] px-6 md:px-10 flex items-center justify-between h-16 md:h-20">
-        <a href="#top" className="font-serif text-xl md:text-2xl tracking-tight">
+        <a href="/" className="font-serif text-xl md:text-2xl tracking-tight">
           BC&nbsp;Partners
         </a>
         <nav className="hidden md:flex items-center gap-10 text-[13px] tracking-wider uppercase text-foreground/80">
@@ -40,7 +40,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <a
-          href="#contact"
+          href="/contact"
           className="hidden md:inline-flex items-center gap-2 text-[13px] tracking-wider uppercase border border-foreground/80 hover:bg-foreground hover:text-background transition-colors px-5 py-2.5"
         >
           Contact
